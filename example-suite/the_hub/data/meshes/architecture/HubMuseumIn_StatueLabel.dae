@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+<asset>
+	<contributor>
+		<author>Anonymous</author>
+		<authoring_tool>Collada Exporter for Blender 2.6+, by Juan Linietsky (juan@codenix.com)</authoring_tool>
+	</contributor>
+	<created>2022-10-29T12:43:14Z</created>
+	<modified>2022-10-29T12:43:14Z</modified>
+	<unit meter="1.0" name="meter"/>
+	<up_axis>Z_UP</up_axis>
+</asset>
+<library_effects>
+	<effect id="id-fx-2" name="TempleStone-fx">
+		<profile_COMMON>
+			<technique sid="common">
+				<blinn>
+					<emission>
+						<color>  0.05000000074505806 0.05000000074505806 0.05000000074505806 1.0 </color>
+					</emission>
+					<ambient>
+						<color>  0.30000001192092896 0.30000001192092896 0.30000001192092896 1.0 </color>
+					</ambient>
+					<diffuse>
+						<color>  0.6355805993080139 0.5976763367652893 0.542690098285675 1.0 </color>
+					</diffuse>
+					<specular>
+						<color>  0.014999999664723873 0.014999999664723873 0.014999999664723873 0.5 </color>
+					</specular>
+					<shininess>
+						<float>50</float>
+					</shininess>
+					<reflective>
+						<color>  0.5 0.5 0.5 1.0 </color>
+					</reflective>
+					<index_of_refraction>
+						<float>1.2</float>
+					</index_of_refraction>
+				</blinn>
+			</technique>
+			<extra>
+				<technique profile="FCOLLADA">
+				</technique>
+				<technique profile="GOOGLEEARTH">
+					<double_sided>0</double_sided>
+				</technique>
+			</extra>
+		</profile_COMMON>
+	</effect>
+</library_effects>
+<library_materials>
+	<material id="id-material-3" name="TempleStone">
+		<instance_effect url="#id-fx-2"/>
+	</material>
+</library_materials>
+<library_geometries>
+	<geometry id="id-mesh-4" name="Cube">
+		<mesh>
+			<source id="id-mesh-4-positions">
+				<float_array id="id-mesh-4-positions-array" count="54"> 45.907572 26.883864 8e-06 -33.758099 -9.599254 25.633814 33.758107 -9.59925 25.633814 -33.758099 -9.599254 25.633814 43.966368 -26.883889 -8e-06 33.758107 -9.59925 25.633814 33.758107 -9.59925 25.633814 43.966368 -26.883889 -8e-06 45.907572 26.883864 8e-06 -33.758099 -9.599254 25.633814 -45.907564 26.883855 8e-06 -43.966352 -26.883864 8e-06 45.907572 26.883864 8e-06 -45.907564 26.883855 8e-06 -33.758099 -9.599254 25.633814 -33.758099 -9.599254 25.633814 -43.966352 -26.883864 8e-06 43.966368 -26.883889 -8e-06</float_array>
+				<technique_common>
+				<accessor source="#id-mesh-4-positions-array" count="18" stride="3">
+					<param name="X" type="float"/>
+					<param name="Y" type="float"/>
+					<param name="Z" type="float"/>
+				</accessor>
+				</technique_common>
+			</source>
+			<source id="id-mesh-4-normals">
+				<float_array id="id-mesh-4-normals-array" count="54"> 0.0 0.574901 0.818223 0.0 0.574901 0.818223 0.0 0.574901 0.818223 0.0 -0.829121 0.559069 0.0 -0.829121 0.559069 0.0 -0.829121 0.559069 0.920623 -0.033238 0.389035 0.920623 -0.033238 0.389035 0.920623 -0.033238 0.389035 -0.920623 -0.033238 0.389035 -0.920623 -0.033238 0.389035 -0.920623 -0.033238 0.389035 -0.0 0.574901 0.818223 -0.0 0.574901 0.818223 -0.0 0.574901 0.818223 -0.0 -0.829122 0.559068 -0.0 -0.829122 0.559068 -0.0 -0.829122 0.559068</float_array>
+				<technique_common>
+				<accessor source="#id-mesh-4-normals-array" count="18" stride="3">
+					<param name="X" type="float"/>
+					<param name="Y" type="float"/>
+					<param name="Z" type="float"/>
+				</accessor>
+				</technique_common>
+			</source>
+			<source id="id-mesh-4-texcoord-0">
+				<float_array id="id-mesh-4-texcoord-0-array" count="36"> 0.834669 0.5 0.625 0.75 0.625 0.5 0.625 0.75 0.625 0.5 0.625 0.5 0.625 0.5 0.625 0.5 0.834669 0.5 0.625 0.75 0.834669 0.75 0.625 0.75 0.834669 0.5 0.834669 0.75 0.625 0.75 0.625 0.75 0.625 0.75 0.625 0.5</float_array>
+				<technique_common>
+				<accessor source="#id-mesh-4-texcoord-0-array" count="18" stride="2">
+					<param name="S" type="float"/>
+					<param name="T" type="float"/>
+				</accessor>
+				</technique_common>
+			</source>
+			<vertices id="id-mesh-4-vertices">
+				<input semantic="POSITION" source="#id-mesh-4-positions"/>
+			</vertices>
+			<triangles count="6" material="id-trimat-5">
+				<input semantic="VERTEX" source="#id-mesh-4-vertices" offset="0"/>
+				<input semantic="NORMAL" source="#id-mesh-4-normals" offset="0"/>
+				<input semantic="TEXCOORD" source="#id-mesh-4-texcoord-0" offset="0" set="0"/>
+				<p> 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 </p>
+			</triangles>
+		</mesh>
+	</geometry>
+</library_geometries>
+<library_visual_scenes>
+	<visual_scene id="id-scene-1" name="scene">
+		<node id="StatueLabel" name="StatueLabel" type="NODE">
+			<matrix sid="transform"> 1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0  </matrix>
+			<instance_geometry url="#id-mesh-4">
+				<bind_material>
+					<technique_common>
+						<instance_material symbol="id-trimat-5" target="#id-material-3"/>
+					</technique_common>
+				</bind_material>
+			</instance_geometry>
+		</node>
+	</visual_scene>
+</library_visual_scenes>
+<scene>
+	<instance_visual_scene url="#id-scene-1" />
+</scene>
+</COLLADA>
