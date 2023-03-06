@@ -1,0 +1,583 @@
+idle: start 0.03333333333333333
+idle: stop 2.033333333333333
+idlesneak: start 2.066666666666667
+idlesneak: stop 3.566666666666667
+runforward: start 3.6
+soundgen: left 3.6666666666666665
+soundgen: right 4.166666666666667
+runforward: stop 4.6
+runback: start 4.633333333333334
+soundgen: right 4.866666666666666
+soundgen: left 5.366666666666666
+runback: stop 5.633333333333334
+runleft: start 5.666666666666667
+soundgen: right 6.133333333333334
+soundgen: left 6.633333333333334
+runleft: stop 6.666666666666667
+runright: start 6.7
+soundgen: left 7.166666666666667
+soundgen: right 7.666666666666667
+runright: stop 7.7
+walkforward: start 7.733333333333333
+soundgen: left 7.766666666666667
+soundgen: right 8.266666666666667
+walkforward: stop 8.733333333333333
+walkback: start 8.766666666666667
+soundgen: left 9.233333333333333
+soundgen: right 9.733333333333333
+walkback: stop 9.766666666666667
+walkleft: start 9.8
+soundgen: left 9.866666666666667
+soundgen: right 10.366666666666667
+walkleft: stop 10.8
+walkright: start 10.833333333333334
+soundgen: right 10.9
+soundgen: left 11.4
+walkright: stop 11.833333333333334
+sneakforward: start 11.866666666666667
+soundgen: left 11.933333333333334
+soundgen: right 12.433333333333334
+sneakforward: stop 12.866666666666667
+sneakback: start 12.9
+soundgen: left 13.366666666666667
+soundgen: right 13.866666666666667
+sneakback: stop 13.9
+sneakleft: start 13.933333333333334
+soundgen: left 14.0
+soundgen: right 14.5
+sneakleft: stop 14.933333333333334
+sneakright: start 14.966666666666667
+soundgen: right 15.033333333333333
+soundgen: left 15.533333333333333
+sneakright: stop 15.966666666666667
+jump: start 16.0
+jump: loop start 16.233333333333334
+jump: loop stop 16.3
+soundgen: land 16.366666666666667
+jump: stop 16.733333333333334
+weapontwohand: equip start 16.766666666666666
+weapontwohand: equip attach 16.933333333333334
+weapontwohand: equip stop 17.266666666666666
+idle2c: start 17.3
+idle2c: stop 17.466666666666665
+weapontwohand: unequip start 17.5
+weapontwohand: unequip detach 17.766666666666666
+weapontwohand: unequip stop 18.0
+runforward2c: start 18.033333333333335
+soundgen: left 18.1
+soundgen: right 18.6
+runforward2c: stop 19.033333333333335
+runback2c: start 19.066666666666666
+soundgen: right 19.3
+soundgen: left 19.8
+runback2c: stop 20.066666666666666
+runleft2c: start 20.1
+soundgen: right 20.566666666666666
+soundgen: left 21.066666666666666
+runleft2c: stop 21.1
+runright2c: start 21.133333333333333
+soundgen: left 21.6
+soundgen: right 22.1
+runright2c: stop 22.133333333333333
+walkforward2c: start 22.166666666666668
+soundgen: left 22.2
+soundgen: right 22.7
+walkforward2c: stop 23.166666666666668
+walkback2c: start 23.2
+soundgen: left 23.666666666666668
+soundgen: right 24.166666666666668
+walkback2c: stop 24.2
+walkleft2c: start 24.233333333333334
+soundgen: left 24.3
+soundgen: right 24.8
+walkleft2c: stop 25.233333333333334
+walkright2c: start 25.266666666666666
+soundgen: right 25.333333333333332
+soundgen: left 25.833333333333332
+walkright2c: stop 26.266666666666666
+sneakforward2c: start 26.3
+soundgen: left 26.366666666666667
+soundgen: right 26.866666666666667
+sneakforward2c: stop 27.3
+sneakback2c: start 27.333333333333332
+soundgen: left 27.8
+soundgen: right 28.3
+sneakback2c: stop 28.333333333333332
+sneakleft2c: start 28.366666666666667
+soundgen: left 28.433333333333334
+soundgen: right 28.933333333333334
+sneakleft2c: stop 29.366666666666667
+sneakright2c: start 29.4
+soundgen: right 29.466666666666665
+soundgen: left 29.966666666666665
+sneakright2c: stop 30.4
+jump2c: start 30.433333333333334
+jump2c: loop start 30.666666666666668
+jump2c: loop stop 30.733333333333334
+soundgen: land 30.8
+jump2c: stop 31.166666666666668
+weapontwohand: chop start 31.2
+weapontwohand: chop max attack 31.466666666666665
+weapontwohand: chop min attack 31.466666666666665
+weapontwohand: chop small follow start 31.6
+weapontwohand: chop medium follow start 31.6
+weapontwohand: chop hit 31.6
+weapontwohand: chop large follow start 31.6
+weapontwohand: chop min hit 31.6
+weapontwohand: chop small follow stop 32.0
+weapontwohand: chop medium follow stop 32.0
+weapontwohand: chop large follow stop 32.0
+weapontwohand: slash start 32.03333333333333
+weapontwohand: slash max attack 32.3
+weapontwohand: slash min attack 32.3
+weapontwohand: slash small follow start 32.43333333333333
+weapontwohand: slash medium follow start 32.43333333333333
+weapontwohand: slash hit 32.43333333333333
+weapontwohand: slash large follow start 32.43333333333333
+weapontwohand: slash min hit 32.43333333333333
+weapontwohand: slash small follow stop 32.833333333333336
+weapontwohand: slash medium follow stop 32.833333333333336
+weapontwohand: slash large follow stop 32.833333333333336
+weapontwohand: thrust start 33.0
+weapontwohand: thrust max attack 33.333333333333336
+weapontwohand: thrust min attack 33.333333333333336
+weapontwohand: thrust small follow start 33.46666666666667
+weapontwohand: thrust medium follow start 33.46666666666667
+weapontwohand: thrust hit 33.46666666666667
+weapontwohand: thrust large follow start 33.46666666666667
+weapontwohand: thrust min hit 33.46666666666667
+weapontwohand: thrust small follow stop 33.93333333333333
+weapontwohand: thrust medium follow stop 33.93333333333333
+weapontwohand: thrust large follow stop 33.93333333333333
+weapontwowide: equip start 33.96666666666667
+weapontwowide: equip attach 34.1
+weapontwowide: equip stop 34.46666666666667
+idle2w: start 34.5
+idle2w: stop 34.666666666666664
+weapontwowide: unequip start 34.7
+weapontwowide: unequip detach 35.03333333333333
+weapontwowide: unequip stop 35.2
+runforward2w: start 35.233333333333334
+soundgen: left 35.3
+soundgen: right 35.8
+runforward2w: stop 36.233333333333334
+runback2w: start 36.266666666666666
+soundgen: right 36.5
+soundgen: left 37.0
+runback2w: stop 37.266666666666666
+runleft2w: start 37.3
+soundgen: right 37.766666666666666
+soundgen: left 38.266666666666666
+runleft2w: stop 38.3
+runright2w: start 38.333333333333336
+soundgen: left 38.8
+soundgen: right 39.3
+runright2w: stop 39.333333333333336
+walkforward2w: start 39.36666666666667
+soundgen: left 39.4
+soundgen: right 39.9
+walkforward2w: stop 40.36666666666667
+walkback2w: start 40.4
+soundgen: left 40.86666666666667
+soundgen: right 41.36666666666667
+walkback2w: stop 41.4
+walkleft2w: start 41.43333333333333
+soundgen: left 41.5
+soundgen: right 42.0
+walkleft2w: stop 42.43333333333333
+walkright2w: start 42.46666666666667
+soundgen: right 42.53333333333333
+soundgen: left 43.03333333333333
+walkright2w: stop 43.46666666666667
+sneakforward2w: start 43.5
+soundgen: left 43.56666666666667
+soundgen: right 44.06666666666667
+sneakforward2w: stop 44.5
+sneakback2w: start 44.53333333333333
+soundgen: left 45.0
+soundgen: right 45.5
+sneakback2w: stop 45.53333333333333
+sneakleft2w: start 45.56666666666667
+soundgen: left 45.63333333333333
+soundgen: right 46.13333333333333
+sneakleft2w: stop 46.56666666666667
+sneakright2w: start 46.6
+soundgen: right 46.666666666666664
+soundgen: left 47.166666666666664
+sneakright2w: stop 47.6
+jump2w: start 47.63333333333333
+jump2w: loop start 47.86666666666667
+jump2w: loop stop 47.93333333333333
+soundgen: land 48.0
+jump2w: stop 48.36666666666667
+weapontwowide: chop start 48.4
+weapontwowide: chop max attack 48.6
+weapontwowide: chop min attack 48.6
+weapontwowide: chop small follow start 48.733333333333334
+weapontwowide: chop medium follow start 48.733333333333334
+weapontwowide: chop hit 48.733333333333334
+weapontwowide: chop large follow start 48.733333333333334
+weapontwowide: chop min hit 48.733333333333334
+weapontwowide: chop small follow stop 49.2
+weapontwowide: chop medium follow stop 49.2
+weapontwowide: chop large follow stop 49.2
+weapontwowide: slash start 49.233333333333334
+weapontwowide: slash max attack 49.56666666666667
+weapontwowide: slash min attack 49.56666666666667
+weapontwowide: slash small follow start 49.7
+weapontwowide: slash medium follow start 49.7
+weapontwowide: slash hit 49.7
+weapontwowide: slash large follow start 49.7
+weapontwowide: slash min hit 49.7
+weapontwowide: slash small follow stop 50.166666666666664
+weapontwowide: slash medium follow stop 50.166666666666664
+weapontwowide: slash large follow stop 50.166666666666664
+weapontwowide: thrust start 50.2
+weapontwowide: thrust max attack 50.53333333333333
+weapontwowide: thrust min attack 50.53333333333333
+weapontwowide: thrust small follow start 50.666666666666664
+weapontwowide: thrust medium follow start 50.666666666666664
+weapontwowide: thrust hit 50.666666666666664
+weapontwowide: thrust large follow start 50.666666666666664
+weapontwowide: thrust min hit 50.666666666666664
+weapontwowide: thrust small follow stop 51.13333333333333
+weapontwowide: thrust medium follow stop 51.13333333333333
+weapontwowide: thrust large follow stop 51.13333333333333
+weapononehand: equip start 51.166666666666664
+weapononehand: equip attach 51.36666666666667
+weapononehand: equip stop 51.666666666666664
+idle1h: start 51.7
+idle1h: stop 51.86666666666667
+weapononehand: unequip start 51.9
+weapononehand: unequip detach 52.13333333333333
+weapononehand: unequip stop 52.4
+runforward1h: start 52.43333333333333
+soundgen: left 52.5
+soundgen: right 53.0
+runforward1h: stop 53.43333333333333
+runback1h: start 53.46666666666667
+soundgen: right 53.7
+soundgen: left 54.2
+runback1h: stop 54.46666666666667
+runleft1h: start 54.5
+soundgen: right 54.96666666666667
+soundgen: left 55.46666666666667
+runleft1h: stop 55.5
+runright1h: start 55.53333333333333
+soundgen: left 56.0
+soundgen: right 56.5
+runright1h: stop 56.53333333333333
+walkforward1h: start 56.56666666666667
+soundgen: left 56.6
+soundgen: right 57.1
+walkforward1h: stop 57.56666666666667
+walkback1h: start 57.6
+soundgen: left 58.06666666666667
+soundgen: right 58.56666666666667
+walkback1h: stop 58.6
+walkleft1h: start 58.63333333333333
+soundgen: left 58.7
+soundgen: right 59.2
+walkleft1h: stop 59.63333333333333
+walkright1h: start 59.666666666666664
+soundgen: right 59.733333333333334
+soundgen: left 60.233333333333334
+walkright1h: stop 60.666666666666664
+sneakforward1h: start 60.7
+soundgen: left 60.766666666666666
+soundgen: right 61.266666666666666
+sneakforward1h: stop 61.7
+sneakback1h: start 61.733333333333334
+soundgen: left 62.2
+soundgen: right 62.7
+sneakback1h: stop 62.733333333333334
+sneakleft1h: start 62.766666666666666
+soundgen: left 62.833333333333336
+soundgen: right 63.333333333333336
+sneakleft1h: stop 63.766666666666666
+sneakright1h: start 63.8
+soundgen: right 63.86666666666667
+soundgen: left 64.36666666666666
+sneakright1h: stop 64.8
+jump1h: start 64.83333333333333
+jump1h: loop start 65.06666666666666
+jump1h: loop stop 65.13333333333334
+soundgen: land 65.2
+jump1h: stop 65.56666666666666
+weapononehand: chop start 65.6
+weapononehand: chop max attack 65.8
+weapononehand: chop min attack 65.8
+weapononehand: chop small follow start 65.96666666666667
+weapononehand: chop medium follow start 65.96666666666667
+weapononehand: chop hit 65.96666666666667
+weapononehand: chop large follow start 65.96666666666667
+weapononehand: chop min hit 65.96666666666667
+weapononehand: chop small follow stop 66.4
+weapononehand: chop medium follow stop 66.4
+weapononehand: chop large follow stop 66.4
+weapononehand: slash start 66.43333333333334
+weapononehand: slash max attack 66.63333333333334
+weapononehand: slash min attack 66.63333333333334
+weapononehand: slash small follow start 66.7
+weapononehand: slash medium follow start 66.7
+weapononehand: slash hit 66.7
+weapononehand: slash large follow start 66.7
+weapononehand: slash min hit 66.7
+weapononehand: slash small follow stop 67.23333333333333
+weapononehand: slash medium follow stop 67.23333333333333
+weapononehand: slash large follow stop 67.23333333333333
+weapononehand: thrust start 67.26666666666667
+weapononehand: thrust max attack 67.46666666666667
+weapononehand: thrust min attack 67.46666666666667
+weapononehand: thrust small follow start 67.6
+weapononehand: thrust medium follow start 67.6
+weapononehand: thrust hit 67.6
+weapononehand: thrust large follow start 67.6
+weapononehand: thrust min hit 67.6
+weapononehand: thrust small follow stop 68.06666666666666
+weapononehand: thrust medium follow stop 68.06666666666666
+weapononehand: thrust large follow stop 68.06666666666666
+handtohand: equip start 68.1
+handtohand: equip stop 68.6
+idlehh: start 68.63333333333334
+idlehh: stop 68.8
+handtohand: unequip start 68.83333333333333
+handtohand: unequip stop 69.33333333333333
+runforwardhh: start 69.36666666666666
+soundgen: left 69.43333333333334
+soundgen: right 69.93333333333334
+runforwardhh: stop 70.36666666666666
+runbackhh: start 70.4
+soundgen: right 70.63333333333334
+soundgen: left 71.13333333333334
+runbackhh: stop 71.4
+runlefthh: start 71.43333333333334
+soundgen: right 71.9
+soundgen: left 72.4
+runlefthh: stop 72.43333333333334
+runrighthh: start 72.46666666666667
+soundgen: left 72.93333333333334
+soundgen: right 73.43333333333334
+runrighthh: stop 73.46666666666667
+walkforwardhh: start 73.5
+soundgen: left 73.53333333333333
+soundgen: right 74.03333333333333
+walkforwardhh: stop 74.5
+walkbackhh: start 74.53333333333333
+soundgen: left 75.0
+soundgen: right 75.5
+walkbackhh: stop 75.53333333333333
+walklefthh: start 75.56666666666666
+soundgen: left 75.63333333333334
+soundgen: right 76.13333333333334
+walklefthh: stop 76.56666666666666
+walkrighthh: start 76.6
+soundgen: right 76.66666666666667
+soundgen: left 77.16666666666667
+walkrighthh: stop 77.6
+sneakforwardhh: start 77.63333333333334
+soundgen: left 77.7
+soundgen: right 78.2
+sneakforwardhh: stop 78.63333333333334
+sneakbackhh: start 78.66666666666667
+soundgen: left 79.13333333333334
+soundgen: right 79.63333333333334
+sneakbackhh: stop 79.66666666666667
+sneaklefthh: start 79.7
+soundgen: left 79.76666666666667
+soundgen: right 80.26666666666667
+sneaklefthh: stop 80.7
+sneakrighthh: start 80.73333333333333
+soundgen: right 80.8
+soundgen: left 81.3
+sneakrighthh: stop 81.73333333333333
+jumphh: start 81.76666666666667
+jumphh: loop start 82.0
+jumphh: loop stop 82.06666666666666
+soundgen: land 82.13333333333334
+jumphh: stop 82.5
+handtohand: chop start 82.53333333333333
+handtohand: chop max attack 82.73333333333333
+handtohand: chop min attack 82.73333333333333
+handtohand: chop small follow start 82.86666666666666
+handtohand: chop medium follow start 82.86666666666666
+handtohand: chop hit 82.86666666666666
+handtohand: chop large follow start 82.86666666666666
+handtohand: chop min hit 82.86666666666666
+handtohand: chop small follow stop 83.33333333333333
+handtohand: chop medium follow stop 83.33333333333333
+handtohand: chop large follow stop 83.33333333333333
+handtohand: slash start 83.36666666666666
+handtohand: slash max attack 83.56666666666666
+handtohand: slash min attack 83.56666666666666
+handtohand: slash small follow start 83.7
+handtohand: slash medium follow start 83.7
+handtohand: slash hit 83.7
+handtohand: slash large follow start 83.7
+handtohand: slash min hit 83.7
+handtohand: slash small follow stop 84.16666666666667
+handtohand: slash medium follow stop 84.16666666666667
+handtohand: slash large follow stop 84.16666666666667
+handtohand: thrust start 84.2
+handtohand: thrust max attack 84.4
+handtohand: thrust min attack 84.4
+handtohand: thrust small follow start 84.5
+handtohand: thrust medium follow start 84.5
+handtohand: thrust hit 84.5
+handtohand: thrust large follow start 84.5
+handtohand: thrust min hit 84.5
+handtohand: thrust small follow stop 85.0
+handtohand: thrust medium follow stop 85.0
+handtohand: thrust large follow stop 85.0
+spellcast: equip start 85.03333333333333
+spellcast: equip stop 85.53333333333333
+idlespell: start 85.56666666666666
+idlespell: stop 86.23333333333333
+spellcast: unequip start 86.26666666666667
+spellcast: unequip stop 86.76666666666667
+spellcast: self start 86.8
+spellcast: self release 87.46666666666667
+spellcast: self stop 88.3
+spellcast: touch start 88.33333333333333
+spellcast: touch release 89.06666666666666
+spellcast: touch stop 89.86666666666666
+spellcast: target start 89.9
+spellcast: target release 90.63333333333334
+spellcast: target stop 91.43333333333334
+bowandarrow: equip start 91.46666666666667
+bowandarrow: equip attach 91.8
+bowandarrow: equip stop 92.13333333333334
+bowandarrow: shoot start 92.16666666666667
+bowandarrow: shoot attach 92.36666666666666
+sound: bowpull 92.63333333333334
+bowandarrow: shoot min attack 92.93333333333334
+bowandarrow: shoot max attack 93.03333333333333
+bowandarrow: shoot min hit 93.06666666666666
+bowandarrow: shoot release 93.1
+sound: bowshoot 93.1
+bowandarrow: shoot follow start 93.2
+bowandarrow: shoot follow stop 93.83333333333333
+bowandarrow: unequip start 93.86666666666666
+bowandarrow: unequip detach 94.2
+bowandarrow: unequip stop 94.53333333333333
+crossbow: equip start 94.56666666666666
+crossbow: equip attach 94.9
+crossbow: equip stop 95.23333333333333
+idlecrossbow: start 95.26666666666667
+idlecrossbow: stop 95.93333333333334
+crossbow: shoot start 95.96666666666667
+crossbow: shoot min hit 96.3
+crossbow: shoot min attack 96.3
+crossbow: shoot max attack 96.3
+sound: crossbowshoot 96.43333333333334
+crossbow: shoot release 96.43333333333334
+crossbow: shoot follow start 96.9
+sound: crossbowpull 96.9
+crossbow: shoot follow attach 97.16666666666667
+crossbow: shoot follow stop 97.36666666666666
+crossbow: unequip start 97.4
+crossbow: unequip detach 97.73333333333333
+crossbow: unequip stop 98.06666666666666
+throwweapon: equip start 98.1
+throwweapon: equip attach 98.43333333333334
+throwweapon: equip stop 98.76666666666667
+throwweapon: shoot start 98.8
+throwweapon: shoot min attack 98.9
+throwweapon: shoot max attack 99.0
+throwweapon: shoot min hit 99.06666666666666
+throwweapon: shoot release 99.1
+throwweapon: shoot follow start 99.3
+throwweapon: shoot follow attach 99.4
+throwweapon: shoot follow stop 99.73333333333333
+throwweapon: unequip start 99.7
+throwweapon: unequip detach 99.93333333333334
+throwweapon: unequip stop 100.36666666666666
+hit1: start 100.4
+soundgen: moan 100.73333333333333
+hit1 stop 101.06666666666666
+shield: block start 101.1
+shield: block hit 101.26666666666667
+shield: block stop 101.76666666666667
+knockout: start 101.8
+soundgen: land 102.8
+knockout: loop start 103.06666666666666
+knockout: loop stop 103.93333333333334
+knockout: stop 105.5
+deathknockout: start 105.53333333333333
+deathknockout: stop 106.8
+knockdown: start 106.83333333333333
+knockdown: stop 109.5
+deathknockdown: start 109.53333333333333
+soundgen: moan 109.96666666666667
+deathknockdown: stop 110.53333333333333
+death1: start 110.56666666666666
+soundgen: moan 110.9
+death1: stop 112.0
+torch: start 112.03333333333333
+torch: stop 112.7
+idlestorm: start 112.73333333333333
+idlestorm: loop start 112.93333333333334
+idlestorm: loop stop 113.2
+idlestorm: stop 113.4
+pickprobe: equip start 113.43333333333334
+pickprobe: equip attach 113.7
+pickprobe: equip stop 113.96666666666667
+pickprobe: start 114.0
+pickprobe: stop 114.96666666666667
+pickprobe: unequip start 115.0
+pickprobe: unequip detach 115.26666666666667
+pickprobe: unequip stop 115.63333333333334
+inventoryhandtohand: start 115.66666666666667
+inventoryhandtohand: stop 115.7
+inventoryweapononehand: start 115.73333333333333
+inventoryweapononehand: stop 115.76666666666667
+inventoryweapontwohand: start 115.8
+inventoryweapontwohand: stop 115.83333333333333
+inventoryweapontwowide: start 115.86666666666666
+inventoryweapontwowide: stop 115.9
+idleswim: start 115.93333333333334
+idleswim: stop 117.93333333333334
+swimwalkforward: start 117.96666666666667
+soundgen: right 118.3
+soundgen: left 118.9
+swimwalkforward: stop 119.3
+swimwalkback: start 119.33333333333333
+soundgen: right 119.66666666666667
+soundgen: left 120.26666666666667
+swimwalkback: stop 120.66666666666667
+swimwalkleft: start 120.7
+soundgen: right 120.8
+soundgen: left 121.4
+swimwalkleft: stop 122.03333333333333
+swimwalkright: start 122.06666666666666
+soundgen: right 122.16666666666667
+soundgen: left 122.76666666666667
+swimwalkright: stop 123.4
+swimrunforward: start 123.43333333333334
+soundgen: right 123.76666666666667
+soundgen: left 124.36666666666666
+swimrunforward: stop 124.76666666666667
+swimrunback: start 124.8
+soundgen: right 125.13333333333334
+soundgen: left 125.73333333333333
+swimrunback: stop 126.13333333333334
+swimrunleft: start 126.16666666666667
+soundgen: right 126.26666666666667
+soundgen: left 126.86666666666666
+swimrunleft: stop 127.5
+swimrunright: start 127.53333333333333
+soundgen: right 127.63333333333334
+soundgen: left 128.23333333333332
+swimrunright: stop 128.86666666666667
+swimdeath: start 128.9
+swimdeath: stop 131.36666666666667
+swimknockout: start 131.4
+swimknockout: loop start 132.26666666666668
+swimknockout: loop stop 133.6
+swimknockout: stop 134.2
+swimdeathknockout: start 134.23333333333332
+swimdeathknockout: stop 136.0
+swimknocdown: start 136.03333333333333
+swimknockdown: stop 138.83333333333334
+swimdeathknockdown: start 138.86666666666667
+swimdeathknockdown: stop 140.63333333333333

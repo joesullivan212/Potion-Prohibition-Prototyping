@@ -1,0 +1,22 @@
+idle: start 0.033333
+idle: stop 2.033333
+walkforward: start 2.066667
+walkforward: stop 3.666667
+runforward: start 3.7
+runforward: stop 4.433333
+attack1: start 4.466667
+attack1: stop 5.433333
+hit1: start 5.466667
+hit1: stop 6.3
+knockdown: start 6.333333
+knockdown: stop 9.0
+knockout: start 9.033333
+knockout: loop start 9.966667
+knockout: loop stop 11.433333
+knockout: stop 12.733333
+deathknockout: start 12.766667
+deathknockout: stop 13.866667
+deathknockdown: start 13.9
+deathknockdown: stop 15.0
+death1: start 15.033333
+death1: stop 16.3

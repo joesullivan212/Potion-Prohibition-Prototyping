@@ -1,0 +1,8 @@
+
+build*
+bin
+
+CMakeLists.txt.user*
+.cache
+
+test*
