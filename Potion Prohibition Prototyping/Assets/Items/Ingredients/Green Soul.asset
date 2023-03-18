@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e69d313ed4fd8b478c0fbc326885eec, type: 3}
+  m_Name: Green Soul
+  m_EditorClassIdentifier: 
+  ItemtName: Green Soul
+  ItemImage: {fileID: -7566173112894012143, guid: 6d75c6d2adbc3b5438ed66dbefedcd5d, type: 3}
+  IsIngredient: 1
+  IsPotion: 0
+  IsCrystal: 0
+  IngredientColor: {r: 0, g: 1, b: 0, a: 1}
+  PowerWeight: 1.8
+  RiskModifier: 1.5
+  PotionColor: {r: 0, g: 0, b: 0, a: 0}
+  IngredientsThatCreatedIt: []
+  CrystalColor: {r: 0, g: 0, b: 0, a: 0}

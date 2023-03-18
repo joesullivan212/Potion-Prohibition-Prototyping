@@ -1,0 +1,1336 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.1415; Version 2004; 64bit' Language: 'en' Physical Memory: 32601 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/joesu/OneDrive/Documents/GitHub/Potion-Prohibition-Prototyping/Potion Prohibition Prototyping
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49981
+Successfully changed project path to: C:/Users/joesu/OneDrive/Documents/GitHub/Potion-Prohibition-Prototyping/Potion Prohibition Prototyping
+C:/Users/joesu/OneDrive/Documents/GitHub/Potion-Prohibition-Prototyping/Potion Prohibition Prototyping
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.20f1 (41c4e627c95f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/joesu/OneDrive/Documents/GitHub/Potion-Prohibition-Prototyping/Potion Prohibition Prototyping/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   
+    VRAM:     8043 MB
+    Driver:   27.21.14.5751
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002331 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 31.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.003 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1003ms)
+		BeginReloadAssembly (44ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (328ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (117ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (131ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (32ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (61ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002623 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Domain Reload Profiling:
+	ReloadAssembly (782ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (621ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (239ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.7 MB.
+System memory in use after: 165.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2135.
+Total: 2.114100 ms (FindLiveObjects: 0.134400 ms CreateObjectMapping: 0.048000 ms MarkObjects: 1.873800 ms  DeleteObjects: 0.057400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/New Scene.unity
+  artifactKey: Guid(fb5729e9e2521554e9f6d1248f62c502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Scene.unity using Guid(fb5729e9e2521554e9f6d1248f62c502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc9e9d5a36a469d5ce9602b1034c55a') in 0.013391 seconds 
+  Import took 0.015344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.801586 seconds.
+  path: Assets/Scenes/Code And Testing.unity
+  artifactKey: Guid(fb5729e9e2521554e9f6d1248f62c502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Code And Testing.unity using Guid(fb5729e9e2521554e9f6d1248f62c502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf81fbfd512a6fa934d84499d0668a7') in 0.005363 seconds 
+  Import took 0.007740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.314216 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4561c18befc291a2d54889c0338e44e4') in 0.005082 seconds 
+  Import took 0.007272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.015402 seconds.
+  path: Assets/Scenes/Style And Movement Testing.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Style And Movement Testing.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d385eb247496c446d494bf62d3e5a83') in 0.004857 seconds 
+  Import took 0.007096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.109127 seconds.
+  path: Assets/Scenes/Style Testing.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Style Testing.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b59191ccbb008e3d3db699bb7a2dea') in 0.004852 seconds 
+  Import took 0.006982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.994859 seconds.
+  path: Assets/Art
+  artifactKey: Guid(a0950e77163611f41a544ef52e81b52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art using Guid(a0950e77163611f41a544ef52e81b52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8da40307c253996626df114bdddcad3') in 0.006066 seconds 
+  Import took 0.008127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.304817 seconds.
+  path: Assets/Art/244_sin_titulo_20230303082250.png
+  artifactKey: Guid(b9d42d4a8806c76438e806bcfe3ebdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/244_sin_titulo_20230303082250.png using Guid(b9d42d4a8806c76438e806bcfe3ebdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d4f3c73e71b71fa63f751a84bc562a') in 0.060227 seconds 
+  Import took 0.062385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.995811 seconds.
+  path: Assets/Art/244_sin_titulo_20230303082250.png
+  artifactKey: Guid(b9d42d4a8806c76438e806bcfe3ebdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/244_sin_titulo_20230303082250.png using Guid(b9d42d4a8806c76438e806bcfe3ebdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbd2eedb121a3cdbefaa7c2dfca9396') in 0.086005 seconds 
+  Import took 0.088214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.895598 seconds.
+  path: Assets/FunlySkyStudio/REQUIRED SETUP - PICK YOUR PIPELINE HERE.asset
+  artifactKey: Guid(c5a37f11a3762324ea6d3a2786fe7e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/REQUIRED SETUP - PICK YOUR PIPELINE HERE.asset using Guid(c5a37f11a3762324ea6d3a2786fe7e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ff901d374fc00a31ba442d92d57a73') in 0.010582 seconds 
+  Import took 0.012833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.144711 seconds.
+  path: Assets/Scenes/Style Testing.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Style Testing.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10911959c8fe246d65fd100c9840086') in 0.004640 seconds 
+  Import took 0.006925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.053453 seconds.
+  path: Assets/FunlySkyStudio
+  artifactKey: Guid(75a0b793710d08e49a6031f23a008394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio using Guid(75a0b793710d08e49a6031f23a008394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7fdd259d522c61caeedbda941fdc35') in 0.005254 seconds 
+  Import took 0.007762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.822231 seconds.
+  path: Assets/FunlySkyStudio/skyProfile.asset
+  artifactKey: Guid(7c03ba7d27a06a54dbfc9df646b293cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/skyProfile.asset using Guid(7c03ba7d27a06a54dbfc9df646b293cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1e3e571dd738278746cad96940c904') in 0.023207 seconds 
+  Import took 0.025611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.614870 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Materials/3DStandardMat.mat
+  artifactKey: Guid(b1d765c5bf524304398b7bb851c2c701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Materials/3DStandardMat.mat using Guid(b1d765c5bf524304398b7bb851c2c701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c998af74c888d442c31dbf68d095a01') in 0.150151 seconds 
+  Import took 0.153170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/House_destroyed.mat
+  artifactKey: Guid(9d110f2984085a3479fab4d26290834c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/House_destroyed.mat using Guid(9d110f2984085a3479fab4d26290834c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e549c56058cb04ec078569d10869c43b') in 0.192454 seconds 
+  Import took 0.194563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/ElectricityLines.mat
+  artifactKey: Guid(e66e34d0f69dd2b49b4e9327acfe5d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/ElectricityLines.mat using Guid(e66e34d0f69dd2b49b4e9327acfe5d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ed3e891f57440f12c05086bf6c69eb') in 0.138744 seconds 
+  Import took 0.140871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/EnergyLine.mat
+  artifactKey: Guid(3cd233e12c7441443b3b4a2bff479cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/EnergyLine.mat using Guid(3cd233e12c7441443b3b4a2bff479cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bf8d43a024757db2d430f57158a7a2') in 0.013638 seconds 
+  Import took 0.015800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/Ground.mat
+  artifactKey: Guid(b198485e1ad402e4c9a1bd4e483c19d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/Ground.mat using Guid(b198485e1ad402e4c9a1bd4e483c19d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86aac2ed9b0a5818e31bfbfd5937431') in 0.084303 seconds 
+  Import took 0.086468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/FunlySkyStudio/Core/Models/Materials/defaultMat.mat
+  artifactKey: Guid(f53554b9cba80dc448566dbea4caf057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Models/Materials/defaultMat.mat using Guid(f53554b9cba80dc448566dbea4caf057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84592acfb8eb786aee823a5c5317cb1') in 0.012889 seconds 
+  Import took 0.014993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Ground.mat
+  artifactKey: Guid(817216ee82962c3458c5041d1d70e4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Ground.mat using Guid(817216ee82962c3458c5041d1d70e4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038ff4986d2d56d6dfddf7118692cf08') in 0.012157 seconds 
+  Import took 0.014309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/Character_Crocodile.mat
+  artifactKey: Guid(21f79b5ce3052c3469ce34bc2300414c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/Character_Crocodile.mat using Guid(21f79b5ce3052c3469ce34bc2300414c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869de71eb0d2202f82d97e17e879d9ef') in 0.018116 seconds 
+  Import took 0.020298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/CityProps_2.mat
+  artifactKey: Guid(25154fa111596954da5b8c29c6712b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/CityProps_2.mat using Guid(25154fa111596954da5b8c29c6712b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10448b6039c1ea21f434a4ff5809ef87') in 0.027657 seconds 
+  Import took 0.029886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Clean.mat
+  artifactKey: Guid(38ffb4f8f03952249ace90fd5cf52650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Clean.mat using Guid(38ffb4f8f03952249ace90fd5cf52650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7325904d1cf19bbb29cf8b3c5acadd7') in 0.013482 seconds 
+  Import took 0.015643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Ground 1.mat
+  artifactKey: Guid(0eab85b6bf8c4cf4ea6f2289934f1d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Ground 1.mat using Guid(0eab85b6bf8c4cf4ea6f2289934f1d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e2a7c3a767e9b0cbef3774b34bc427') in 0.013448 seconds 
+  Import took 0.016006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/FunlySkyStudio/Core/Models/Materials/groundMaterial.mat
+  artifactKey: Guid(9e9be37b5e9e69f49938beaee1f042e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Models/Materials/groundMaterial.mat using Guid(9e9be37b5e9e69f49938beaee1f042e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79accd9d3a79555a7f2f5391d777c3c5') in 0.012974 seconds 
+  Import took 0.015086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/ElectricityLines 1.mat
+  artifactKey: Guid(851e958f14fbf8645871eefbd189067a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/ElectricityLines 1.mat using Guid(851e958f14fbf8645871eefbd189067a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3876ea76fd249e19c22c795fff26a25a') in 0.014156 seconds 
+  Import took 0.016410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/FunlySkyStudio/Core/Models/Materials/leafMaterial.mat
+  artifactKey: Guid(12ebcd5c80bb14e45b1ef496d2448bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Models/Materials/leafMaterial.mat using Guid(12ebcd5c80bb14e45b1ef496d2448bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49427c077cc999adf780bc80324997d') in 0.012378 seconds 
+  Import took 0.014571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/House_destroyed.mat
+  artifactKey: Guid(479659991f117d4409651bb2818b1878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/House_destroyed.mat using Guid(479659991f117d4409651bb2818b1878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367b5caa4de36f9bb6956eea8f700358') in 0.011730 seconds 
+  Import took 0.013895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Chimney_Electricity.mat
+  artifactKey: Guid(42eaa242a5810954aaaa2eaba454b2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Chimney_Electricity.mat using Guid(42eaa242a5810954aaaa2eaba454b2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bdb7b7e9eb0629dc5deceaad6fff79') in 0.021550 seconds 
+  Import took 0.023805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Stylizer/Resources/Scripts/UnityGrain/Shaders/Build materials/gm.mat
+  artifactKey: Guid(8c9430ef03ac7f843bc22de27c15d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/Scripts/UnityGrain/Shaders/Build materials/gm.mat using Guid(8c9430ef03ac7f843bc22de27c15d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20816109c104cd87513649a758589437') in 0.014871 seconds 
+  Import took 0.017187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/Chimney_Electricity.mat
+  artifactKey: Guid(8db64ab78152efc43ac5094bf40be01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/Chimney_Electricity.mat using Guid(8db64ab78152efc43ac5094bf40be01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0b9d42a9fda9c2909fe9465e8c03dc') in 0.012068 seconds 
+  Import took 0.014189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Stylizer/Resources/SpaceScene/Materials/Asteroid.mat
+  artifactKey: Guid(1c4734d3a9716554d87864ebf3667c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/SpaceScene/Materials/Asteroid.mat using Guid(1c4734d3a9716554d87864ebf3667c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad07df626cba7ccc8a0e8f40b0e441e1') in 0.041887 seconds 
+  Import took 0.044945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Boiler_Water_Tank.mat
+  artifactKey: Guid(2fa17ec7a235e304ca0c55d7c9fc4181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Boiler_Water_Tank.mat using Guid(2fa17ec7a235e304ca0c55d7c9fc4181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fb07ea7bd4969db2506be760b4e0d8') in 0.019002 seconds 
+  Import took 0.021182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/FunlySkyStudio/Core/Models/Materials/lambert1.mat
+  artifactKey: Guid(9275951c714821c46b254dd0a6010f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Models/Materials/lambert1.mat using Guid(9275951c714821c46b254dd0a6010f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83a4a7b94f390e88a0d1bb37fee81f6') in 0.012278 seconds 
+  Import took 0.014424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Boiler.mat
+  artifactKey: Guid(79f53b20beb5fb742820e673cc18f590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Boiler.mat using Guid(79f53b20beb5fb742820e673cc18f590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ff434534dbeccc5a476c9901703ec7') in 0.013560 seconds 
+  Import took 0.015770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/Boiler_Water_Tank.mat
+  artifactKey: Guid(507037e04d04cc146b2b2e9c22950405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/Boiler_Water_Tank.mat using Guid(507037e04d04cc146b2b2e9c22950405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf491fff50891ead18854c93ba29726d') in 0.013805 seconds 
+  Import took 0.015984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Capboard.mat
+  artifactKey: Guid(b4b2fcaf2159ac447b4b31b9a2807008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Capboard.mat using Guid(b4b2fcaf2159ac447b4b31b9a2807008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd60cfae0f1ed4a5ecafbefe8f540a06') in 0.045016 seconds 
+  Import took 0.047691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/FunlySkyStudio/Core/Models/Materials/lambert2SG.mat
+  artifactKey: Guid(c2389a8c4bee4e04e807de6efe37742e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Models/Materials/lambert2SG.mat using Guid(c2389a8c4bee4e04e807de6efe37742e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4959d885545a10c75a9cbe81219fb3d0') in 0.012446 seconds 
+  Import took 0.014632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Crocodile.mat
+  artifactKey: Guid(be71fbdc36b3dda4b9b827cb2b2505e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Crocodile.mat using Guid(be71fbdc36b3dda4b9b827cb2b2505e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2c6a2a0805e0495508932eab1377bb') in 0.031309 seconds 
+  Import took 0.034053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Character_Crocodile.mat
+  artifactKey: Guid(b48ae03d22ec9df44b892f5b2839513c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Character_Crocodile.mat using Guid(b48ae03d22ec9df44b892f5b2839513c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3224f9008cb4c9fad16297e1f60aa6d') in 0.014640 seconds 
+  Import took 0.016835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Bridges.mat
+  artifactKey: Guid(d231761cf64876e4f8971e6be9cfdc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Bridges.mat using Guid(d231761cf64876e4f8971e6be9cfdc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2d3cc8ce61d2ed127e63eafab5b076') in 0.020850 seconds 
+  Import took 0.023121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/Chimney.mat
+  artifactKey: Guid(d9fa5fb13ecbab749ba3b978aff9e6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/Chimney.mat using Guid(d9fa5fb13ecbab749ba3b978aff9e6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abe6cb137dc77625ec3e81dabf1eabf') in 0.012534 seconds 
+  Import took 0.014779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Ground.mat
+  artifactKey: Guid(86209f8d91124f84096c030d0f9ced56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Ground.mat using Guid(86209f8d91124f84096c030d0f9ced56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb42e282d33659f9d4902284112caa8') in 0.030441 seconds 
+  Import took 0.033138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/House_1.mat
+  artifactKey: Guid(f14a8c48efd4d7d49b86909d977c81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/House_1.mat using Guid(f14a8c48efd4d7d49b86909d977c81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed2adf4664179e93f6d5627b13d54ee') in 0.019348 seconds 
+  Import took 0.021558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Bookshelf.mat
+  artifactKey: Guid(c2971f598451a0d46ad8e18e004f06be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Bookshelf.mat using Guid(c2971f598451a0d46ad8e18e004f06be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c208e336ccf3ab16013c3861def65792') in 0.031204 seconds 
+  Import took 0.033919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/ElectricityLines.mat
+  artifactKey: Guid(917ba95871a41bf44ba6a5a31cebabf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/ElectricityLines.mat using Guid(917ba95871a41bf44ba6a5a31cebabf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f7eb502999e19c450bcebdef882159') in 0.014929 seconds 
+  Import took 0.017111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/Bridges.mat
+  artifactKey: Guid(a3c94985fcbbd93438a472c8a7b6af3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/Bridges.mat using Guid(a3c94985fcbbd93438a472c8a7b6af3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7938a84f260d87f9be7c81bf42adde3') in 0.013469 seconds 
+  Import took 0.015612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Character 1.mat
+  artifactKey: Guid(9cbed57ac502c0c429912e8801c6cb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Character 1.mat using Guid(9cbed57ac502c0c429912e8801c6cb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efe3f64a14d3adf2ce5c1efd3e50404') in 0.030876 seconds 
+  Import took 0.033541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/FunlySkyStudio/Core/Models/Materials/initialShadingGroup.mat
+  artifactKey: Guid(fc332a7589cf6b4438a7a944a1a5e557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Models/Materials/initialShadingGroup.mat using Guid(fc332a7589cf6b4438a7a944a1a5e557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0793ebdd6b946f3147fd3d95dce3b63b') in 0.012428 seconds 
+  Import took 0.014620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Chimney.mat
+  artifactKey: Guid(eaed9ac05943e7f4aade1d2de028ac18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Chimney.mat using Guid(eaed9ac05943e7f4aade1d2de028ac18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6558b86f8b1da2e19c3a4c134b2bfeb0') in 0.010602 seconds 
+  Import took 0.012819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/EnergyLine.mat
+  artifactKey: Guid(89ea80d47a6a9fa46830f4a104ba8af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/EnergyLine.mat using Guid(89ea80d47a6a9fa46830f4a104ba8af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f284d56e41853b46df8c54c8c7b929a1') in 0.011464 seconds 
+  Import took 0.013631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/CityProps_2.mat
+  artifactKey: Guid(8096e54174dee18429e5e9deeb47ae56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/CityProps_2.mat using Guid(8096e54174dee18429e5e9deeb47ae56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0042a2eb3471087f329f8dc93c4014') in 0.015125 seconds 
+  Import took 0.017300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/House_long.mat
+  artifactKey: Guid(fa166c7c534ad14469e8bd1663641c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/House_long.mat using Guid(fa166c7c534ad14469e8bd1663641c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59a4ca1cd931e04c3d44de4b44bf784') in 0.013415 seconds 
+  Import took 0.015571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Flower.mat
+  artifactKey: Guid(dc1f7a34e39bd914a8346e5b3027fe3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Flower.mat using Guid(dc1f7a34e39bd914a8346e5b3027fe3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbf3cddd8839f654d59276dcb0fbe42') in 0.031676 seconds 
+  Import took 0.034229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Character.mat
+  artifactKey: Guid(746b3df2719629645b271a52be780a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Character.mat using Guid(746b3df2719629645b271a52be780a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4768a370158f4e7c315cf1df76e6aa5f') in 0.023605 seconds 
+  Import took 0.026263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/House_1.mat
+  artifactKey: Guid(f37ebacdf40fbad44a92c355c4cff342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/House_1.mat using Guid(f37ebacdf40fbad44a92c355c4cff342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc2361c43355fc0b43279e2e51e8616') in 0.012916 seconds 
+  Import took 0.015148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/Boiler.mat
+  artifactKey: Guid(177b69855d30e4b4fad69e326348ac37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/Boiler.mat using Guid(177b69855d30e4b4fad69e326348ac37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800b5ba2f6b9552a1a21f982595ea198') in 0.009704 seconds 
+  Import took 0.011834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/ElectricityLines 1.mat
+  artifactKey: Guid(6991f71fb77e97c4fa4511302b50379b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/ElectricityLines 1.mat using Guid(6991f71fb77e97c4fa4511302b50379b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424afc89fc7be9f74e2f5424b124184b') in 0.012533 seconds 
+  Import took 0.014646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Desk.mat
+  artifactKey: Guid(8b71fc2066bd1654aab0f9e923fd21fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Desk.mat using Guid(8b71fc2066bd1654aab0f9e923fd21fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54fb169a5dba3e3e5d42a394f15bd5b8') in 0.032200 seconds 
+  Import took 0.034749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/House_long.mat
+  artifactKey: Guid(95b6bef5aae1a454bafdb335930e8c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/House_long.mat using Guid(95b6bef5aae1a454bafdb335930e8c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e0ee34f058a13d111e9ebf277ed137') in 0.011468 seconds 
+  Import took 0.013553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/Ground 1.mat
+  artifactKey: Guid(a5ef2132c35639a4687600858324c165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/Ground 1.mat using Guid(a5ef2132c35639a4687600858324c165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe500a4856dbe6ff3ec037fd3bf5f51') in 0.009535 seconds 
+  Import took 0.011726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.512419 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Materials/LightningBlueMat-1.mat
+  artifactKey: Guid(6987def3cb9367c40b17edd4957d8cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Materials/LightningBlueMat-1.mat using Guid(6987def3cb9367c40b17edd4957d8cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18b1374b5293ffa0d684136e327e089') in 0.048684 seconds 
+  Import took 0.050923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Materials/LightningHorizontalWhiteMat-1.mat
+  artifactKey: Guid(133a93ef20b3b42db8cf92e2148b853b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Materials/LightningHorizontalWhiteMat-1.mat using Guid(133a93ef20b3b42db8cf92e2148b853b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2d3faa462f2490189d7b4120d88cb9') in 0.018877 seconds 
+  Import took 0.021042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Stylizer/Resources/DetectiveScene/Materials/LightShaft.mat
+  artifactKey: Guid(fa705aa195a41b342824f1a163f79232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/DetectiveScene/Materials/LightShaft.mat using Guid(fa705aa195a41b342824f1a163f79232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4951fd805679382984f8dfabe21b34') in 0.038273 seconds 
+  Import took 0.040504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/MiscElements.mat
+  artifactKey: Guid(d9a19faa49435ca49a4c397c327439c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/MiscElements.mat using Guid(d9a19faa49435ca49a4c397c327439c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bd1241a10d8aa5859eadadbbdc4541') in 0.013472 seconds 
+  Import took 0.015706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Materials/LightningToonMat.mat
+  artifactKey: Guid(93f886e7d2caf4e5885b3aa176504d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Materials/LightningToonMat.mat using Guid(93f886e7d2caf4e5885b3aa176504d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0164c5c0f7efd248b5e662ef50d1ae79') in 0.019013 seconds 
+  Import took 0.021314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Lines.mat
+  artifactKey: Guid(45fd074aaad067b46972c078c2b40547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Lines.mat using Guid(45fd074aaad067b46972c078c2b40547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c1636833bf9a3b0b0b2c09c3c52add') in 0.014014 seconds 
+  Import took 0.016328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Materials/RainDownfallMat.mat
+  artifactKey: Guid(39444f880b422e5479b78aa5e37618c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Materials/RainDownfallMat.mat using Guid(39444f880b422e5479b78aa5e37618c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc82e7bc148cd5575aa4a899943f5688') in 0.025460 seconds 
+  Import took 0.027684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Paintings.mat
+  artifactKey: Guid(d9c1c51fdb1245841ad735233c36b152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Paintings.mat using Guid(d9c1c51fdb1245841ad735233c36b152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3165a39e3f370f6121a534b6afffa02') in 0.029635 seconds 
+  Import took 0.032286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Stylizer/Resources/Scripts/UnityGrain/Shaders/Build materials/ub.mat
+  artifactKey: Guid(23f251be192cd1341aed054f1e2adf1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/Scripts/UnityGrain/Shaders/Build materials/ub.mat using Guid(23f251be192cd1341aed054f1e2adf1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22947d1eecd65b29c4f52e4bb6e28df8') in 0.013784 seconds 
+  Import took 0.016095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/Vehicle_Car_Truck.mat
+  artifactKey: Guid(77a15a7edd8308549805834f9e5963d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/Vehicle_Car_Truck.mat using Guid(77a15a7edd8308549805834f9e5963d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ce36f6b5f88679e63f7f96f7ca78af') in 0.020559 seconds 
+  Import took 0.022737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Vehicle_Car_Vans_Bus.mat
+  artifactKey: Guid(efb16e855a876724183f23dfec001be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Vehicle_Car_Vans_Bus.mat using Guid(efb16e855a876724183f23dfec001be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcda4ed59f6a2ed5c34b017be04748d') in 0.026252 seconds 
+  Import took 0.028702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Smoke.mat
+  artifactKey: Guid(381e3f11c29048549a69e85f320577d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Smoke.mat using Guid(381e3f11c29048549a69e85f320577d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e567a91bb9ea24400d73118c11d5ea') in 1.241782 seconds 
+  Import took 1.244015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Trees.mat
+  artifactKey: Guid(5aa24ee4577e344469528584604c69ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Trees.mat using Guid(5aa24ee4577e344469528584604c69ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5e30bd572610294cc8449c1e45694f') in 0.021452 seconds 
+  Import took 0.023637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/FunlySkyStudio/Core/Models/Materials/mountainMat.mat
+  artifactKey: Guid(d8189a5f8758879438d43fb2dc865bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Models/Materials/mountainMat.mat using Guid(d8189a5f8758879438d43fb2dc865bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6da9ad39cd5d20b8592ec4ccb6dbff6') in 0.014421 seconds 
+  Import took 0.016583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Materials/LightningHorizontalBlueMat-2.mat
+  artifactKey: Guid(2815e315759164d8187019038075eb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Materials/LightningHorizontalBlueMat-2.mat using Guid(2815e315759164d8187019038075eb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba4e53220d8902a93f1b0eeb2178ff4') in 0.020845 seconds 
+  Import took 0.023029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Materials/LightningWhiteMat-3.mat
+  artifactKey: Guid(a7fa8db67e1a84c76821c4570c13bf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Materials/LightningWhiteMat-3.mat using Guid(a7fa8db67e1a84c76821c4570c13bf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e794dc54c66cfac637ae4fa61f3533') in 0.019805 seconds 
+  Import took 0.021958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Materials/LightningHorizontalBlueMat-1.mat
+  artifactKey: Guid(6b207f4eec8ba4a57a0a2053787dfa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Materials/LightningHorizontalBlueMat-1.mat using Guid(6b207f4eec8ba4a57a0a2053787dfa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e375043fec3aac3ded0cf4c3e18d3967') in 0.013817 seconds 
+  Import took 0.015979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Roon.mat
+  artifactKey: Guid(5d27361a787372f43a70395ad1f25d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/Roon.mat using Guid(5d27361a787372f43a70395ad1f25d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf433d2d5df14ae48d50c8b24ef34008') in 0.035814 seconds 
+  Import took 0.038463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Stylizer/Resources/SpaceScene/Materials/Ring 2.mat
+  artifactKey: Guid(a8c50307176187d48bf4bb07034e9d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/SpaceScene/Materials/Ring 2.mat using Guid(a8c50307176187d48bf4bb07034e9d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2acd39b281234aa86c0da224c0e886') in 0.029310 seconds 
+  Import took 0.031507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/Mountains_1.mat
+  artifactKey: Guid(9235943674917fa44a2f20d874642a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/Mountains_1.mat using Guid(9235943674917fa44a2f20d874642a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b22aae200762938752d8a6c1cddc846') in 0.018274 seconds 
+  Import took 0.020457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/FunlySkyStudio/Core/Models/Materials/RainPattern1.mat
+  artifactKey: Guid(7b76ac7627ebef841b08225d9e2320d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Models/Materials/RainPattern1.mat using Guid(7b76ac7627ebef841b08225d9e2320d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4400837d056652d9088a65942b849af3') in 0.013196 seconds 
+  Import took 0.015336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/Vehicle_Bike.mat
+  artifactKey: Guid(12dd1cd8fbf24af49aaa7accd2d31f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/Vehicle_Bike.mat using Guid(12dd1cd8fbf24af49aaa7accd2d31f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f224be957220c08ddb947a6033f058ab') in 0.030050 seconds 
+  Import took 0.032425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/Trees.mat
+  artifactKey: Guid(b1f194008519f34419f80ccbbd3f84f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/Trees.mat using Guid(b1f194008519f34419f80ccbbd3f84f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637af3c5c8d93716cc71337abf8b8d56') in 0.021754 seconds 
+  Import took 0.024050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Materials/LightningHorizontalWhiteMat-2.mat
+  artifactKey: Guid(a5b8e4011f07546d2acc7f153086aad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Materials/LightningHorizontalWhiteMat-2.mat using Guid(a5b8e4011f07546d2acc7f153086aad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4aa247edc4520cfdc6168cf2a6900c') in 0.014076 seconds 
+  Import took 0.016255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Mountains_1.mat
+  artifactKey: Guid(10ae5cb2fcb76b54da108df52a859509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Mountains_1.mat using Guid(10ae5cb2fcb76b54da108df52a859509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06a48feb1e452237bb53397c179cab5') in 0.016398 seconds 
+  Import took 0.018580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/Lines.mat
+  artifactKey: Guid(b6421cfee76f0cf45b14e8ebfce78392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/Lines.mat using Guid(b6421cfee76f0cf45b14e8ebfce78392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fda46e406c314c290e0b61dc1d97634') in 0.012977 seconds 
+  Import took 0.015122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/LightOrange.mat
+  artifactKey: Guid(aa3071c2170fd374db58a31285b7922d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/LightOrange.mat using Guid(aa3071c2170fd374db58a31285b7922d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1d54dc3737dd47cce086b23a1b7856') in 0.012704 seconds 
+  Import took 0.014830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/Vehicle_Car_Vans_Bus.mat
+  artifactKey: Guid(fb98b5eb022ac40438b7507fd4be7091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/Vehicle_Car_Vans_Bus.mat using Guid(fb98b5eb022ac40438b7507fd4be7091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fecadbae06171a28d1c846e6fcc3dc2') in 0.020295 seconds 
+  Import took 0.022537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Vehicle_Bike.mat
+  artifactKey: Guid(e873da7a3857d694fbcad79bb61c6f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Vehicle_Bike.mat using Guid(e873da7a3857d694fbcad79bb61c6f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68585fc977579ca7c2ead9c247224175') in 0.019500 seconds 
+  Import took 0.021626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Materials/LightningWhiteMat-2.mat
+  artifactKey: Guid(51ea70b4b3d41493cb04dd5618ea4122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Materials/LightningWhiteMat-2.mat using Guid(51ea70b4b3d41493cb04dd5618ea4122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8157b5334b7035e02dbbc97446ea188d') in 0.019234 seconds 
+  Import took 0.021476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Stylizer/Resources/SpaceScene/Materials/Moons.mat
+  artifactKey: Guid(a36976f24caaa9f428c3208816b84646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/SpaceScene/Materials/Moons.mat using Guid(a36976f24caaa9f428c3208816b84646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77f0b14be1cbf6206b3dcb34cd783aa') in 0.354005 seconds 
+  Import took 0.374031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Props_1.mat
+  artifactKey: Guid(4e914c3899be95e4398dd05e863a4a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Props_1.mat using Guid(4e914c3899be95e4398dd05e863a4a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b843e788ab578cfe37d3b2ffe9ea3e') in 0.023895 seconds 
+  Import took 0.026204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/Vehicle_Car_Small.mat
+  artifactKey: Guid(3c941b5c2b6b444489a6dad17318c740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/Vehicle_Car_Small.mat using Guid(3c941b5c2b6b444489a6dad17318c740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44c298e29b315146a08e5858535fda8') in 0.021903 seconds 
+  Import took 0.024180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Vehicle_Car_Small.mat
+  artifactKey: Guid(04c7ada1a977d9b449948c5004c5ccd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Vehicle_Car_Small.mat using Guid(04c7ada1a977d9b449948c5004c5ccd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7fece018db2519103b6686bef4d72da') in 0.020509 seconds 
+  Import took 0.022786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/FunlySkyStudio/Core/Models/Materials/octaneDiffuseMaterial6.mat
+  artifactKey: Guid(fce0d11592b80b54db58fe1130473f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Models/Materials/octaneDiffuseMaterial6.mat using Guid(fce0d11592b80b54db58fe1130473f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f9306361a5f32b10662581497e6311') in 0.017001 seconds 
+  Import took 0.019127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Materials/LightningBlueMat-2.mat
+  artifactKey: Guid(89ec8c21edd3c4003b4bee4e0f1e8857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Materials/LightningBlueMat-2.mat using Guid(89ec8c21edd3c4003b4bee4e0f1e8857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c6c515c41c70b6f5dc30ac830124c3') in 0.021515 seconds 
+  Import took 0.023710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/LightWhite.mat
+  artifactKey: Guid(854bce3e0c3d6884eab3890abed78d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/DetectiveScene/Materials/Prebaked/LightWhite.mat using Guid(854bce3e0c3d6884eab3890abed78d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db785e16a9b61e4982dcaa4bfc560357') in 0.014482 seconds 
+  Import took 0.016635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/FunlySkyStudio/Core/Models/Materials/treeTrunkMaterial.mat
+  artifactKey: Guid(a1a7e6134afe76b47ae23085a5f18093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Models/Materials/treeTrunkMaterial.mat using Guid(a1a7e6134afe76b47ae23085a5f18093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0209e027cbe70f5cac0cf31a604f5f50') in 0.015909 seconds 
+  Import took 0.018023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/WaterTank.mat
+  artifactKey: Guid(7a4e2d1c6f2d03e4ebc34ea3fea07fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/WaterTank.mat using Guid(7a4e2d1c6f2d03e4ebc34ea3fea07fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad8e3c8659b31ca9045385b8d462506') in 0.013452 seconds 
+  Import took 0.015720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/WaterTank.mat
+  artifactKey: Guid(0cbc849a81418084db0c6873fe6d78d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/WaterTank.mat using Guid(0cbc849a81418084db0c6873fe6d78d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b59af007543ca00eb54ecf49fbc395') in 0.012263 seconds 
+  Import took 0.014462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Materials/RainSplashLowPolyMat-1.mat
+  artifactKey: Guid(d5d2e8a3fca6446ff90a51ffc3a0e04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Materials/RainSplashLowPolyMat-1.mat using Guid(d5d2e8a3fca6446ff90a51ffc3a0e04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853b248f800fa4018536f09b9abee8f3') in 0.174765 seconds 
+  Import took 0.176922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Materials/LightningBlueMat-3.mat
+  artifactKey: Guid(93bf3d8cd72a841f08851a6a19fe930f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Materials/LightningBlueMat-3.mat using Guid(93bf3d8cd72a841f08851a6a19fe930f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68856e956f3f6d60bcb3a42ff22eb27d') in 0.014466 seconds 
+  Import took 0.016637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/MiscElements.mat
+  artifactKey: Guid(9469d381823f344488c24ea704e07bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/MiscElements.mat using Guid(9469d381823f344488c24ea704e07bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616aa434aefa1b7e653f7e1d538dea0d') in 0.012855 seconds 
+  Import took 0.015021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Stylizer/Resources/Mountains/Materials/Mountains.mat
+  artifactKey: Guid(6e18f7a89abab8e428083c3878c8d1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/Mountains/Materials/Mountains.mat using Guid(6e18f7a89abab8e428083c3878c8d1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52e0a559ab26ba727598767a4b1c59a') in 0.635999 seconds 
+  Import took 0.665219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Materials/RainSplashInstancedMat-1.mat
+  artifactKey: Guid(72563c6f468c34724b12f651782bc333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Materials/RainSplashInstancedMat-1.mat using Guid(72563c6f468c34724b12f651782bc333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9189c9cbe799088124b63953336560') in 0.020675 seconds 
+  Import took 0.023356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Materials/RainSplashInstancedMat-2.mat
+  artifactKey: Guid(f621b01c5b45e9947950df504f19ed81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Materials/RainSplashInstancedMat-2.mat using Guid(f621b01c5b45e9947950df504f19ed81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed863f4ecc36df138e705e604e9d331') in 0.021849 seconds 
+  Import took 0.024008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Stylizer/Resources/SpaceScene/Materials/Ring 1.mat
+  artifactKey: Guid(51ec0770abee71c4a8e6fb1415a16e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/SpaceScene/Materials/Ring 1.mat using Guid(51ec0770abee71c4a8e6fb1415a16e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaeb6241b5823b80f18a096a3c4afd96') in 0.020743 seconds 
+  Import took 0.022944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials/Props_1.mat
+  artifactKey: Guid(d79bd47b6a08a9d448709594392c16ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials/Props_1.mat using Guid(d79bd47b6a08a9d448709594392c16ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ce94c81c5dbfadc357e1a22baf916d') in 0.013226 seconds 
+  Import took 0.015466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Stylizer/Resources/SpaceScene/Materials/Ring 3.mat
+  artifactKey: Guid(140e0112fdd1b6c4d9dfec8e63fe62c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/SpaceScene/Materials/Ring 3.mat using Guid(140e0112fdd1b6c4d9dfec8e63fe62c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87eaf43471812e4bb085029aec5ad81b') in 0.013648 seconds 
+  Import took 0.015871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Stylizer/Resources/SpaceScene/Materials/Ring.mat
+  artifactKey: Guid(c529c22860094284b821e798673d63a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/SpaceScene/Materials/Ring.mat using Guid(c529c22860094284b821e798673d63a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913f46f382a55cf8d084e9f3e732adfd') in 0.013282 seconds 
+  Import took 0.016113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Stylizer/Resources/SpaceScene/Materials/Planet.mat
+  artifactKey: Guid(e34a8c45b9245414f87e89a6e1227142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/SpaceScene/Materials/Planet.mat using Guid(e34a8c45b9245414f87e89a6e1227142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a7bcec00d6cd972930011bb2d4f54c') in 0.171604 seconds 
+  Import took 0.187486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Materials/LightningWhiteMat-1.mat
+  artifactKey: Guid(ea4c217bf6965498dbb9090170b7a2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Materials/LightningWhiteMat-1.mat using Guid(ea4c217bf6965498dbb9090170b7a2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32763d005ad542c5f60353dba8a0ae69') in 0.019172 seconds 
+  Import took 0.021425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Vehicle_Car_Truck.mat
+  artifactKey: Guid(6365b54da932a854ca108345b725fcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylizer/Resources/ApocalypseScene/Materials_Stylizer/Vehicle_Car_Truck.mat using Guid(6365b54da932a854ca108345b725fcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ec4ce128c68e02253b6d2316d132e3') in 0.021116 seconds 
+  Import took 0.023256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.340350 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Blank Sky - Start from scratch.asset
+  artifactKey: Guid(818261a6ad2ebbe42be78ff2d9f7de67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Blank Sky - Start from scratch.asset using Guid(818261a6ad2ebbe42be78ff2d9f7de67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd434b832d5418327b67eb5fccfdfb4c0') in 0.072259 seconds 
+  Import took 0.074966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Full Day - Sunrise to Sunset.asset
+  artifactKey: Guid(750dd6e69b5bf4c69b52190b1d680f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Full Day - Sunrise to Sunset.asset using Guid(750dd6e69b5bf4c69b52190b1d680f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa24786f85a17135302f3678f0bc5418') in 0.048611 seconds 
+  Import took 0.050892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Daytime - Low Poly Noise Standard Clouds.asset
+  artifactKey: Guid(ed0018a35f57a2c418b163f4e6fa8ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Daytime - Low Poly Noise Standard Clouds.asset using Guid(ed0018a35f57a2c418b163f4e6fa8ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01651031f6359accc183925cb2078b1') in 0.022366 seconds 
+  Import took 0.024642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Gradient - Powder Blue Bubble Stars.asset
+  artifactKey: Guid(94041c82cd9635441823d51b30ebf59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Gradient - Powder Blue Bubble Stars.asset using Guid(94041c82cd9635441823d51b30ebf59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e6674e817994ad46915495795f05e3') in 0.018811 seconds 
+  Import took 0.021139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Storm Light Rain -  Rain without lightning.asset
+  artifactKey: Guid(713660e626aa6f747912054504852c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Storm Light Rain -  Rain without lightning.asset using Guid(713660e626aa6f747912054504852c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aee9910079b33724c0b083d56ffa470') in 0.020627 seconds 
+  Import took 0.023202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Full Day - Sunrise to Sunset.asset
+  artifactKey: Guid(3a515ec9e7b071046abf03c8344b5f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Full Day - Sunrise to Sunset.asset using Guid(3a515ec9e7b071046abf03c8344b5f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2f81c1b58464bc41c4a52bb438b864') in 0.025645 seconds 
+  Import took 0.028203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Night Sky - Clouds With Stars.asset
+  artifactKey: Guid(340ba3d3acb291849ad8eb7e90b6260f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Night Sky - Clouds With Stars.asset using Guid(340ba3d3acb291849ad8eb7e90b6260f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deae16fd7ecd65e171c56dc3bed8f4a0') in 0.020843 seconds 
+  Import took 0.023408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Night Sky - Custom Stars and Moon.asset
+  artifactKey: Guid(1d6fd345f95dd0a4b9ba50c2a4ed907d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Night Sky - Custom Stars and Moon.asset using Guid(1d6fd345f95dd0a4b9ba50c2a4ed907d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e267fa8986ece76cbac1ed5631f688') in 0.018377 seconds 
+  Import took 0.020626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Blue Sky - Light Clouds.asset
+  artifactKey: Guid(ce59ec619d3adfa45abeb88d2c972167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Blue Sky - Light Clouds.asset using Guid(ce59ec619d3adfa45abeb88d2c972167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cb926e74c89b0c4f095360c613df64') in 0.021238 seconds 
+  Import took 0.023767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Storm Heavy Rain -  Rain and Lightning.asset
+  artifactKey: Guid(cdfd4157cf7b16a41b771ed6be763357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Storm Heavy Rain -  Rain and Lightning.asset using Guid(cdfd4157cf7b16a41b771ed6be763357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82dec61d7d1d3c4c6d56b6d62b1511a2') in 0.020369 seconds 
+  Import took 0.022886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Gradient - Bright Orange Gradient Bubble Stars.asset
+  artifactKey: Guid(fef9714944196d34a90d9e010d7437d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Gradient - Bright Orange Gradient Bubble Stars.asset using Guid(fef9714944196d34a90d9e010d7437d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5296a5e7733c983b4fa5ece131597bc2') in 0.018129 seconds 
+  Import took 0.020382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Gradient - Blue Gradient Bubble Stars.asset
+  artifactKey: Guid(41e2b4614e769a54e92844eb36dad7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Gradient - Blue Gradient Bubble Stars.asset using Guid(41e2b4614e769a54e92844eb36dad7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3f510e073be1f626ed0fc2120eca3c') in 0.017182 seconds 
+  Import took 0.019378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Space - 360 Colorful Stars.asset
+  artifactKey: Guid(bed66e2a445c10144bcab0805342d1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Space - 360 Colorful Stars.asset using Guid(bed66e2a445c10144bcab0805342d1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f3bc4e54e447a43368dc22dbc48cec') in 0.026233 seconds 
+  Import took 0.028508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Blue Sky - Medium Clouds.asset
+  artifactKey: Guid(a570d81dbb97edd4b8b40d7b816a0eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Blue Sky - Medium Clouds.asset using Guid(a570d81dbb97edd4b8b40d7b816a0eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0376f47c1f92e46f6fb6c8c3ca56ab58') in 0.021349 seconds 
+  Import took 0.023838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Blue Sky - Partly Stormy.asset
+  artifactKey: Guid(c328f51f687a6c84b957896f32f341f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Blue Sky - Partly Stormy.asset using Guid(c328f51f687a6c84b957896f32f341f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5198bc3f3981ffd94cc3ae9f340b6cfc') in 0.022147 seconds 
+  Import took 0.024671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Night - Fast Mobile 5Point Stars with Low Poly Clouds.asset
+  artifactKey: Guid(907f4cd92f3f42247a05f38e5e791d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Night - Fast Mobile 5Point Stars with Low Poly Clouds.asset using Guid(907f4cd92f3f42247a05f38e5e791d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc9a7e7f4a78d8534cdd9e089808815') in 0.035141 seconds 
+  Import took 0.038332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Night Sky - Fast Mobile Stars With Low Poly Clouds.asset
+  artifactKey: Guid(5b20562eec1a2d841b0505144575bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Night Sky - Fast Mobile Stars With Low Poly Clouds.asset using Guid(5b20562eec1a2d841b0505144575bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28054ce43ea90a429cf4e838f435e46') in 0.029433 seconds 
+  Import took 0.032644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Night Sky - Clear Sky With Stars.asset
+  artifactKey: Guid(83b2e1293f948014a89c129567ae84c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Night Sky - Clear Sky With Stars.asset using Guid(83b2e1293f948014a89c129567ae84c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e692853dc3bd712c16446adbdbd29d') in 0.021010 seconds 
+  Import took 0.023572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Daytime - Low Poly Lit Clouds.asset
+  artifactKey: Guid(ddd14d540011154449de7f8f02fb5ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Daytime - Low Poly Lit Clouds.asset using Guid(ddd14d540011154449de7f8f02fb5ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0883633f03e2dc93200d8d7c33b5611') in 0.025244 seconds 
+  Import took 0.028207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Gradient - Pink Dusk Gradient Bubble Stars.asset
+  artifactKey: Guid(bca48ac9b75267a449280c185f4b7d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Gradient - Pink Dusk Gradient Bubble Stars.asset using Guid(bca48ac9b75267a449280c185f4b7d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638f0bad5aa8f06690e32e5fcdb699f9') in 0.017702 seconds 
+  Import took 0.019954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Stormy - Custom Rain and Lightning.asset
+  artifactKey: Guid(6dfb7e33714c0ba489ea212b4cefef97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunlySkyStudio/Core/Internal/Presets/3D/Toon Stormy - Custom Rain and Lightning.asset using Guid(6dfb7e33714c0ba489ea212b4cefef97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12196d8d864acdba0fd9e6aab9b5caf') in 0.017851 seconds 
+  Import took 0.020045 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002668 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.729 seconds
+Domain Reload Profiling:
+	ReloadAssembly (729ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (595ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (202ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (220ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.1 MB.
+System memory in use after: 161.2 MB.
+
+Unloading 98 unused Assets to reduce memory usage. Loaded Objects now: 2094.
+Total: 2.059400 ms (FindLiveObjects: 0.132500 ms CreateObjectMapping: 0.049400 ms MarkObjects: 1.842300 ms  DeleteObjects: 0.034500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002499 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.738 seconds
+Domain Reload Profiling:
+	ReloadAssembly (738ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (590ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (204ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (218ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1491 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.3 MB.
+System memory in use after: 160.4 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2082.
+Total: 2.035000 ms (FindLiveObjects: 0.136100 ms CreateObjectMapping: 0.043600 ms MarkObjects: 1.838400 ms  DeleteObjects: 0.016300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 164.804626 seconds.
+  path: Assets/Scenes/Style Testing.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Style Testing.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ed6fe4876f479458527020bd9a18b8') in 0.016153 seconds 
+  Import took 0.018314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.417234 seconds.
+  path: Assets/Scenes/Art.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Art.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6df3274f6c73092a0d6a01b05abcdd') in 0.005021 seconds 
+  Import took 0.007335 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

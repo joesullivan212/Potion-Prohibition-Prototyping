@@ -15,6 +15,17 @@ public static class GameGod
         return CombinedColor;
     }
 
+    public static Color CombineColor(Color Color1, Color Color2, float Color1Wieght, float Color2Weight)
+    {
+
+        Color CombinedColor = new Color();
+        CombinedColor.r = (Color1.r * Color1Wieght + Color2.r * Color2Weight) / 2.0f;
+        CombinedColor.g = (Color1.g * Color1Wieght + Color2.g * Color2Weight) / 2.0f;
+        CombinedColor.b = (Color1.b * Color1Wieght + Color2.b * Color2Weight) / 2.0f;
+
+        return CombinedColor;
+    }
+
     public static ColorHSV CombineColor(ColorHSV Color1, ColorHSV Color2)
     {
         ColorHSV CombinedColor = new ColorHSV();

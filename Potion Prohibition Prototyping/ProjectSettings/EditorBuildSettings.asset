@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Gathering.unity
+    guid: 498eae1063420af43bdd0c27afe74d32
+  - enabled: 1
+    path: Assets/Scenes/Brewing.unity
+    guid: fd16b192c2ba16049b1116fdca8173ae
   m_configObjects: {}
