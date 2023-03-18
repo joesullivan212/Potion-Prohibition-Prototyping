@@ -91,6 +91,8 @@ public class GatheringManager : MonoBehaviour
 
     public Item SelectItemFromRepo(int RoundLevel)
     {
+
+        Debug.Log("Pick ingredients found");
         for (int i = 0; i < 5; i++)
         {
             //Look for a matching item using the percent chances for each round located in the gathering repo in Data

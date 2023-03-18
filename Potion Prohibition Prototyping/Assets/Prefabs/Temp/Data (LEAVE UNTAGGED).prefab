@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7036387629155321839
+--- !u!1 &1929096326254911469
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,11 +8,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7036387629155321836}
-  - component: {fileID: 7036387629155321837}
-  - component: {fileID: 7036387629155321838}
-  - component: {fileID: 7036387629155321827}
-  - component: {fileID: 7798325562530052401}
+  - component: {fileID: 1929096326254911470}
+  - component: {fileID: 1929096326254911471}
+  - component: {fileID: 1929096326254911468}
+  - component: {fileID: 1929096326254911457}
+  - component: {fileID: 1682926172035178803}
   m_Layer: 0
   m_Name: Data (LEAVE UNTAGGED)
   m_TagString: Untagged
@@ -20,13 +20,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7036387629155321836
+--- !u!4 &1929096326254911470
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7036387629155321839}
+  m_GameObject: {fileID: 1929096326254911469}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 640, y: 320, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -34,26 +34,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7036387629155321837
+--- !u!114 &1929096326254911471
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7036387629155321839}
+  m_GameObject: {fileID: 1929096326254911469}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b911e6238d7c2d428c321edf60e6f6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TagName: Data
---- !u!114 &7036387629155321838
+--- !u!114 &1929096326254911468
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7036387629155321839}
+  m_GameObject: {fileID: 1929096326254911469}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6368bbd336578564080cff770de2e263, type: 3}
@@ -1080,28 +1080,56 @@ MonoBehaviour:
       PercentageChanceToBeFoundThisLevel: 1
     - item: {fileID: 11400000, guid: 105f9038557dedc46b5c9c9afa85ad46, type: 2}
       PercentageChanceToBeFoundThisLevel: 1
---- !u!114 &7036387629155321827
+--- !u!114 &1929096326254911457
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7036387629155321839}
+  m_GameObject: {fileID: 1929096326254911469}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ed69ac1349e6b845add8bab7101fa24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Items: []
---- !u!114 &7798325562530052401
+--- !u!114 &1682926172035178803
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7036387629155321839}
+  m_GameObject: {fileID: 1929096326254911469}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a29b3eb39267188418ab5042f8071b05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PotentialPotions:
+  - PerfectColor: {r: 0.90588236, g: 0.3372549, b: 0.62352943, a: 1}
+    Constilation: {fileID: -3451584917214901100, guid: f9ec257cf1a33c041a66420873bb08fb, type: 3}
+    PotionTypeName: Health
+  - PerfectColor: {r: 0.3529412, g: 1, b: 0.39215687, a: 1}
+    Constilation: {fileID: -5701073603917386571, guid: f9ec257cf1a33c041a66420873bb08fb, type: 3}
+    PotionTypeName: Poison
+  - PerfectColor: {r: 0.46666667, g: 0, b: 1, a: 1}
+    Constilation: {fileID: 7207073638274312668, guid: f9ec257cf1a33c041a66420873bb08fb, type: 3}
+    PotionTypeName: Invisibilty
+  - PerfectColor: {r: 0, g: 1, b: 0.98039216, a: 1}
+    Constilation: {fileID: -695758582860477347, guid: f9ec257cf1a33c041a66420873bb08fb, type: 3}
+    PotionTypeName: Magic
+  - PerfectColor: {r: 0.43529412, g: 0.25490198, b: 0.15294118, a: 1}
+    Constilation: {fileID: 2997963275823066360, guid: f9ec257cf1a33c041a66420873bb08fb, type: 3}
+    PotionTypeName: Psychosis
+  - PerfectColor: {r: 1, g: 0.95686275, b: 0.23921569, a: 1}
+    Constilation: {fileID: -6659597306982858418, guid: f9ec257cf1a33c041a66420873bb08fb, type: 3}
+    PotionTypeName: Speed
+  - PerfectColor: {r: 1, g: 0.59607846, b: 0, a: 1}
+    Constilation: {fileID: -624152368191353695, guid: f9ec257cf1a33c041a66420873bb08fb, type: 3}
+    PotionTypeName: Explosion
+  - PerfectColor: {r: 0.2784314, g: 0.11764706, b: 0.32156864, a: 1}
+    Constilation: {fileID: -624152368191353695, guid: f9ec257cf1a33c041a66420873bb08fb, type: 3}
+    PotionTypeName: Scourge
+  - PerfectColor: {r: 0.23529412, g: 0.34901962, b: 0.25490198, a: 1}
+    Constilation: {fileID: 4099210352035177067, guid: f9ec257cf1a33c041a66420873bb08fb, type: 3}
+    PotionTypeName: Growth

@@ -4,10 +4,17 @@ using UnityEngine;
 
 public class PotionBottle : MonoBehaviour
 {
+    [Header("Variables")]
     public Color PotionColor;
+    public Sprite[] LevelOfLiquidSprites;
+    public int LevelOfLiquid = 4;
+
+    [Header("Plugins")]
     public SpriteRenderer PotionContentSpriteRenderer;
     public SpriteRenderer ConstilationSpriteRenderer;
     public TriggerCheck PotionContentsTriggerCheck;
+
+    
 
 
     [Header("Debug")]
@@ -23,6 +30,8 @@ public class PotionBottle : MonoBehaviour
 
     private void Update()
     {
+        PotionContentSpriteRenderer.sprite = LevelOfLiquidSprites[LevelOfLiquid];
+
         float HighestNumber = 0;
 
         // Calculate all distances
@@ -44,5 +53,11 @@ public class PotionBottle : MonoBehaviour
         {
             ConstilationSpriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, (ClosenessToPotentialMatch[CloesestMatch] - 65.0f) / 35.0f);
         }
+    }
+
+    public void Reset()
+    {
+        LevelOfLiquid = 4;
+        PotionColor = Color.white;
     }
 }

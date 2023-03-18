@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TakePotion : MonoBehaviour
 {
+    public int AmountOfPotionToTake = 4;
+    public string SizeAdjective;
     public GameObject YeildPotionWindowObj;
     public YeildPotionWindow yeildPotionWindow;
     public BrewManager brewManager;
@@ -17,10 +19,25 @@ public class TakePotion : MonoBehaviour
 
     public void TakePotionFunc()
     {
-        YeildPotionWindowObj.SetActive(true);
-        yeildPotionWindow.PotionDescriptionText.text = potentialPotionRepo.PotentialPotions[brewManager.CurrentPotionBottle.CloesestMatch].PotionTypeName;
-        yeildPotionWindow.PotionPurityText.text = brewManager.CurrentPotionBottle.ClosenessToPotentialMatch[brewManager.CurrentPotionBottle.CloesestMatch].ToString() + "% Purity";
+        if(brewManager.CurrentPotionBottle.LevelOfLiquid >= AmountOfPotionToTake)
+        {
+            //Enough potion! Take it
+            brewManager.CurrentPotionBottle.LevelOfLiquid -= AmountOfPotionToTake;
+            YeildPotionWindowObj.SetActive(true);
+            yeildPotionWindow.PotionDescriptionText.text = SizeAdjective + " " + potentialPotionRepo.PotentialPotions[brewManager.CurrentPotionBottle.CloesestMatch].PotionTypeName;
+            yeildPotionWindow.PotionPurityText.text = brewManager.CurrentPotionBottle.ClosenessToPotentialMatch[brewManager.CurrentPotionBottle.CloesestMatch].ToString() + "% Purity";
 
-        brewManager.CurrentPotionBottle.PotionColor = Color.white;
+            brewManager.CurrentPotionBottle.PotionColor = Color.white;
+        }
+        else
+        {
+            //Not enough potion to take
+            Debug.Log("Not enough potion!");
+        }
+
+        if(brewManager.CurrentPotionBottle.LevelOfLiquid <= 0)
+        {
+            brewManager.CurrentPotionBottle.Reset();
+        }
     }
 }
